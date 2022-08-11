@@ -1,6 +1,9 @@
+import styles from './App.module.css'
+
+
 const App = () => {
   return(
-    <div>oi</div>
+    <div className={styles.main}>oi</div>
   )
 }
 

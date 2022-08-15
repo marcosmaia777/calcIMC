@@ -5,6 +5,9 @@ body{
 .headerContainer{
     max-width: 900px;
     margin: 40px auto;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(7, 118, 161, 0.836);
 }
 .container{
     display: flex;
@@ -15,20 +18,40 @@ body{
     flex: 1;
     margin-right: 40px;
 }
+.container p {
+    color: rgba(0, 0, 0,);
+    text-align: center;
+}
 .container input{
     display: flex;
     margin-top: 10px;
-    width: 50%;
-    height: 12%;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px rgba(7, 118, 161, 0.836);
 }
 .container button{
-    width: 50%;
-    height: 12%;
+    width: 100%;
+    padding: 10px;
     background: rgba(7, 118, 161, 0.836);
     color: white;
     border: none;
     margin-top: 10px;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.container button:hover{
+    background: rgba(16, 156, 211, 0.836);
+    transition: 0.4;
+}
+.container .result {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(7, 118, 161, 0.836);
+    font-weight: bolder;
 }
 .container .rightSide{
     flex: 1;

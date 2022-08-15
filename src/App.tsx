@@ -6,6 +6,11 @@ const App = () => {
   
   let [height, setHeight] = useState<number>(0)
   let [weight, setWeight] = useState<number>(0)
+
+  let calc = () => {
+    // imc =  peso/ altura * altura 
+    
+  }
  
   return(
     <div className={styles.main}>
@@ -32,7 +37,7 @@ const App = () => {
             onChange={e => setWeight(parseFloat(e.target.value))}
             />
 
-            <button></button>
+            <button>Calcular</button>
         </div>
         <div className={styles.rightSide}>
           ...

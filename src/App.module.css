@@ -15,9 +15,20 @@ body{
     flex: 1;
     margin-right: 40px;
 }
-.container .leftSide input{
+.container input{
     display: flex;
     margin-top: 10px;
+    width: 50%;
+    height: 12%;
+}
+.container button{
+    width: 50%;
+    height: 12%;
+    background: rgba(7, 118, 161, 0.836);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 .container .rightSide{
     flex: 1;

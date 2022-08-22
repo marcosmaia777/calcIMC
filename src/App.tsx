@@ -47,7 +47,11 @@ const App = () => {
             <button onClick={calc}>Calcular</button>
         </div>
         <div className={styles.rightSide}>
-          ...
+          <div className={styles.grid}>
+            {levels.map((item, key)=>
+            <div>{item.title}</div>
+            )}
+          </div>
         </div>
       </div>
     </div>
